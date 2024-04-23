@@ -32,38 +32,38 @@ function App() {
       <table border='1' style={{ borderCollapse: 'collapse' }}>
         <thead>
           <tr>
-            <th>
+            <th className='classe'>
               Classificação
             </th>
-            <th>
+            <th className='imc'>
               IMC
             </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Abaixo do Peso</td>
-            <td>Abaixo de 18,5</td>
+            <td className='classe'>Abaixo do Peso</td>
+            <td className='imc'>Abaixo de 18,5</td>
           </tr>
           <tr>
-            <td className='alt'>Peso Normal</td>
-            <td className='alt'>Entre 18,5 e 24,9</td>
+            <td className='alt classe'>Peso Normal</td>
+            <td className='alt imc'>Entre 18,5 e 24,9</td>
           </tr>
           <tr>
-            <td>Sobre Peso</td>
-            <td>Entre 25 e 29,9</td>
+            <td className='classe'>Sobre Peso</td>
+            <td className='imc'>Entre 25 e 29,9</td>
           </tr>
           <tr>
-            <td className='alt'>Obesidade Grau I</td>
-            <td className='alt'>Entre 30 e 34,9</td>
+            <td className='alt classe'>Obesidade Grau I</td>
+            <td className='alt imc'>Entre 30 e 34,9</td>
           </tr>
           <tr>
-            <td>Obesidade Grau II</td>
-            <td>Entre 35 e 39,9</td>
+            <td className='classe'>Obesidade Grau II</td>
+            <td className='imc'>Entre 35 e 39,9</td>
           </tr>
           <tr>
-            <td className='alt'>Obesidade Grau III ou Mórbida</td>
-            <td className='alt'>Maior que 40</td>
+            <td className='alt classe'>Obesidade Grau III ou Mórbida</td>
+            <td className='alt imc'>Maior que 40</td>
           </tr>
         </tbody>
       </table>
